@@ -4,8 +4,13 @@ function sonIguales(x, y) {
   // De lo contrario, retorna false.
   // Por ejemplo: 
   // 5, 5 ---> true 
-  // 5, 8 ---> false 
+  // 5, 8 ---> false 9 === 9
   // Tu código:
+  if (x === y) {
+    console.log (true);
+  } else {
+    console.log (false);
+  }
 }
-
+sonIguales(5, 9)
 module.exports = sonIguales;
